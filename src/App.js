@@ -8,6 +8,7 @@ import Motion from './Motion';
 import Joke from './Joke';
 import Logo from './Logo';
 import Quotes from './Quotes';
+import TodoList from './TodoList'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
                   <Route path="/jokes/:id"  component={Joke} />
                   <Route path="/motion" component={Motion} />
                   <Route path="/quotes" component={Quotes} />
+                  <Route path="/todolist" component={TodoList} />
             </Switch>
           </div>
     </Router>

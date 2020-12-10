@@ -5,9 +5,6 @@ import ThumbUpIcon from '@material-ui/icons/ThumbUp';
 
 function Quotes(props) {
 
-
-
-
   useEffect(() => {
     fetchQuotes();
   }, []);
@@ -31,6 +28,7 @@ function Quotes(props) {
         
         <h2> Kanye West Jokes:   {quotes.quote}</h2>
         <p>How much do you like this quote? You liked it {count}</p>
+        <p> ps all quotes are fetched by a rest api</p>
   <button onClick={()=> setCount(count+1)}>Like = {count}</button>
 
   <Badge badgeContent={count} color="primary">

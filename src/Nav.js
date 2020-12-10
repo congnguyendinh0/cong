@@ -14,7 +14,8 @@ function Nav(props) {
                 <Link to="/quotes" style={navStyle}><li>Quote</li></Link> 
                 <Link to="/motion" style={navStyle}><li>Motion</li></Link>
                 <Link to="/about" style={navStyle}><li>About</li></Link>
-               
+                <Link to ="/" style={navStyle}><li>Home</li></Link>
+                <Link to ="/todolist" style={navStyle}><li>TodoList</li></Link>
             </ul>
         </nav>
     )
